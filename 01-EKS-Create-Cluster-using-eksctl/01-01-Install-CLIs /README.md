@@ -83,35 +83,18 @@ kubectl version  --client
 Output: Client Version: v1.16.8-eks-e16311
 ```
 
-
-### Step-02-02: Windows 10 - Install and configure kubectl
-- Install kubectl on Windows 10 
-```
-mkdir kubectlbinary
-cd kubectlbinary
-curl -o kubectl.exe https://amazon-eks.s3.us-west-2.amazonaws.com/1.16.8/2020-04-16/bin/windows/amd64/kubectl.exe
-```
-- Update the system **Path** environment variable 
-```
-C:\Users\KALYAN\Documents\kubectlbinary
-```
-- Verify the kubectl client version
-```
-kubectl version --short --client
-kubectl version --client
-```
-
 ## Step-03: Install eksctl CLI
-### Step-03-01: eksctl on Mac
+### Step-03-01: eksctl on Linux
 ```
-# Install Homebrew on MacOs
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# Install Homebrew on Linux
+curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_Linux_amd64.tar.gz"
 
-# Install the Weaveworks Homebrew tap.
-brew tap weaveworks/tap
+# Exract the zip
+tar -xzf eksctl_Linux_amd64.tar.gz
 
-# Install the Weaveworks Homebrew tap.
-brew install weaveworks/tap/eksctl
+# Install the eksctl.
+sudo install -m 0755 eksctl /usr/local/bin/eksctl
+rm -f eksctl eksctl_Linux_amd64.tar.gz
 
 # Verify eksctl version
 eksctl version
