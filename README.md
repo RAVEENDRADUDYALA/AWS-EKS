@@ -3,7 +3,6 @@ Amazon Elastic Kubernetes Service (Amazon EKS)
 
 # AWS EKS - Elastic Kubernetes Service - Masterclass
 
-[![Image](https://www.google.com/search?sca_esv=0df10a7f926c2bff&rlz=1C1UEAD_enIN1196IN1196&sxsrf=APpeQnvcBoantSw087mQrfFwZ1rh3elkrw:1788616191406&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrruedQ0d32Et2kDhW_DVrEiVEEKhGMS6J6qOai58Kp-12o7QqJlXuVqdyTgH1QDy7e8aDHIiAV59eoNEOdQ5wN2YOMPs54GjlPbPJtTCnxhyqI7tuqva5fzBlqnQEIGh_ne8PEFRlIPmVd0ZGJtaHnOLKgCQ&q=elastic+kubernetes+service+aws+images&sa=X&ved=2ahUKEwiOl-nFyteWAxVPkuEIHV1QCcMQtKgLegQIFRAB&biw=958&bih=944&dpr=1#sv=CAMSURoyKhBlLUZaSDBhMWwzTHdlV2lNMg5GWkgwYTFsM0x3ZVdpTToOVmFoQkxBN2cxRnZQUE0gBCoXCgFzEhBlLUZaSDBhMWwzTHdlV2lNGAEwARgHIN34gqEHSggQARgBIAEoAQ)
 
 ## Course Modules
 
